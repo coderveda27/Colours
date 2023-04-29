@@ -1,27 +1,6 @@
-"""CSC110 Fall 2022 Assignment 1: Data and Functions (Colour Visualizations)
-
-Module Description
-==================
-This Python file contains some code for visualizing colours using Pygame.
-
-You do *not* need to understand how any of this code works for Assignment 1.
-But don't worry, over the next few weeks you'll learn about how to use Pygame
-to create your own visualizations.
-
-Copyright and Usage Information
-===============================
-
-This file is provided solely for the personal and private use of students
-taking CSC110 at the University of Toronto St. George campus. All forms of
-distribution of this code, whether as given or with any changes, are
-expressly prohibited. For more information on copyright for CSC110 materials,
-please consult our Course Syllabus.
-
-This file is Copyright (c) 2022 David Liu and Mario Badr.
-"""
 import pygame
 from PIL import Image
-
+ 
 
 def show_colours_pygame(colours: list) -> None:
     """Visualize the given list of colours using Pygame.
