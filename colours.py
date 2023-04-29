@@ -1,31 +1,5 @@
-"""CSC110 Fall 2022 Assignment 1, Part 4: Colour Rows
-
-Instructions (READ THIS FIRST!)
-===============================
-
-Please follow the instructions in the assignment handout to complete this file.
-
-Note that unlike Part 2, you only need to complete the function bodies.
-You are not required to add more doctest examples, though you may do so to help
-with your own understanding/testing.
-
-Copyright and Usage Information
-===============================
-
-This file is provided solely for the personal and private use of students
-taking CSC110 at the University of Toronto St. George campus. All forms of
-distribution of this code, whether as given or with any changes, are
-expressly prohibited. For more information on copyright for CSC110 materials,
-please consult our Course Syllabus.
-
-This file is Copyright (c) 2022 David Liu, Tom Fairgrieve, Angela Zavaleta Bernuy.
-"""
 import a1_helpers
 
-
-###################################################################################################
-# 0. Warmup
-###################################################################################################
 def warmup_part4() -> None:
     """Visualize an example colour row using pygame.
 
@@ -203,8 +177,6 @@ if __name__ == '__main__':
 
     doctest.testmod(verbose=True)
 
-    # When you are ready to check your work with python_ta, uncomment the following lines.
-    # (In PyCharm, select the lines below and press Ctrl/Cmd + / to toggle comments.)
     import python_ta
 
     python_ta.check_all(config={
